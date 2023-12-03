@@ -1,3 +1,28 @@
-body{
+body {
     background: gray;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    color: red;
+    background: yellow;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 24px;
+    font-weight: 900;
+    width: 400px;
+    height: 80px;
+    overflow: hidden;
+    border: 5px dotted blue;
+    margin: 50px auto;
+}
+
+
+.box + p {
+    color: orange
+}
+
