@@ -1,5 +1,31 @@
 body {
-    background: gray;
+    background: rgb(58, 155, 161);
+}
+
+table,
+th,
+td {
+    border-collapse: separate;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.lightning {
+    color: rgb(82, 33, 197);
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.about {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.table {
+    width: 400px; 
+    margin: 0 auto;
 }
 
 .container {
@@ -7,9 +33,22 @@ body {
     margin: 0 auto;
 }
 
-.heder, .body, .footer {
+.header,
+.body,
+.footer {
     padding: 20px;
-    background: yellow;
     margin: 0 0 20px;
+    outline: 2px solid purple;
 }
 
+.container>div {
+    background: rgb(141, 113, 60);
+}
+
+.header+.body {
+    background: blue;
+}
+
+.table tr + tr {
+background: aqua;
+}
